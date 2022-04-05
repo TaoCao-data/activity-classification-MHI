@@ -18,4 +18,4 @@ In the ```input_videos``` folder, there are six used as the training data,
 and one (named as ```test_video.mp4```) as the test data.
 
 Do not modify video names. If you need to run with additional test video, 
-name it as 'test_video.mp4' and replace the existing one.
+name it as ```test_video.mp4``` and replace the existing one.
