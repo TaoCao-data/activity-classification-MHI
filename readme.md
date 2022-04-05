@@ -1,11 +1,21 @@
-# final_project_main.py is the only code need to be compiled and run.
+## Overview
+Activity recognition relies on the concept of turning an action occurrence into a feature space, to be learned by a classifier. 
+Motion history image (MHI) is one of the widely used meth-ods to extract feature spaces from an action occurrence
+[[Reference]](https://ieeexplore.ieee.org/document/4694407).
 
-# It uses inputs from the folder 'input_videos'. There are six used as the training data, and one (named as 'test_video.mp4') as the test video.
+This repo presents a 2D motion history image based motion recognition and classification model. 
+The ```main.py``` is the only code to be compiled and run. The ```input_videos``` folder contain sample inputs
+the model calls. The model produce some image features to assist model output explanations, stored in ```output``` folder.
 
-# Do not modify video names. If you need to run with additional test video, name it as 'test_video.mp4' and replace the existing one.
+## Approach
 
-# Once you run the program, all outputs will be write to folder 'output'.
+The flow chart of the motion recognition model using the MHI.
 
-# Test video link: https://www.dropbox.com/s/59w9o8e0dkudy0x/mhi_test_video.avi?dl=0
+![Model Flow Chart](/assets/flowchart.png)
 
-# Code, inputs, and outputs link: https://www.drop-box.com/sh/d8oa0mfpr2u9pe4/AADyCTsSXnTY30zpCqHoXM_Pa?dl=0
+## Notes
+In the ```input_videos``` folder, there are six used as the training data, 
+and one (named as ```test_video.mp4```) as the test data.
+
+Do not modify video names. If you need to run with additional test video, 
+name it as 'test_video.mp4' and replace the existing one.
